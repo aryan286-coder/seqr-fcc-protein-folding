@@ -1,0 +1,113 @@
+{
+  "generated_utc": "2026-08-22T13:17:16.388202+00:00",
+  "python": "3.13.9",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "numpy": "2.3.5",
+  "sequence": "KLVFFA",
+  "canonical_qubits": 15,
+  "unreduced_qubits": 20,
+  "ansatz_reps": 3,
+  "rng_seed": 42,
+  "lambda_plane": 100.0,
+  "lambda_sa": 100.0,
+  "include_2nn": false,
+  "ground_energy": -30.57,
+  "ground_degeneracy_canonical": 2,
+  "ground_degeneracy_unreduced": 48,
+  "ground_states": [
+    19381,
+    23207
+  ],
+  "multilinear_monomials": 27238,
+  "max_multilinear_degree": 15,
+  "ising_pauli_terms": 32696,
+  "max_pauli_weight": 15,
+  "hardware": {
+    "backend": "ibm_marrakesh",
+    "submitted_utc": "2026-08-22T08:16:18.931760+00:00",
+    "shots": 100000,
+    "sequence": "KLVFFA",
+    "register_qubits": 15,
+    "ansatz_reps": 3,
+    "transpiled_depth": 76,
+    "transpiled_2q_gates": 42,
+    "cvar_alpha": 0.1,
+    "seed": 2,
+    "simulator_ground_overlap": 0.1568230627091463,
+    "exact_ground_energy": -30.57,
+    "ground_states": [
+      19381,
+      23207
+    ],
+    "execution_mode": "job (Open plan)",
+    "jobs": {
+      "DD + twirl": "da4llomaa69c739juv60",
+      "twirl only": "da4llp61vhnc73fl5i60"
+    }
+  },
+  "qiskit": "2.5.2",
+  "hardware_20q": {
+    "backend": "ibm_marrakesh",
+    "submitted_utc": "2026-08-22T13:33:20.070304+00:00",
+    "shots": 100000,
+    "register_qubits": 20,
+    "ansatz_reps": 3,
+    "cvar_alpha": 0.1,
+    "seed": 1,
+    "transpiled_depth": 97,
+    "transpiled_2q_gates": 57,
+    "simulator_ground_overlap": 0.12046687132555167,
+    "ground_states_count": 48,
+    "jobs": {
+      "DD + twirl": "da4qa743jnrc73aghld0",
+      "twirl only": "da4qa7u1vhnc73flagpg"
+    }
+  },
+  "hardware_comparison": {
+    "backend": "ibm_marrakesh",
+    "canonical": {
+      "qubits": 15,
+      "two_qubit_gates": 42,
+      "sim_P_ground": 0.1568230627091463,
+      "hw_P_ground": 0.08255,
+      "hw_physical_mass": 0.84462
+    },
+    "unreduced": {
+      "qubits": 20,
+      "two_qubit_gates": 57,
+      "sim_P_ground": 0.12046687132555167,
+      "hw_P_ground": 0.058050000000000004,
+      "hw_physical_mass": 0.36596
+    }
+  },
+  "hardware_repeats": {
+    "backend": "ibm_marrakesh",
+    "config": "twirl only",
+    "shots_per_run": 100000,
+    "n_per_register": 3,
+    "canonical": {
+      "P_ground": [
+        0.08255,
+        0.09433,
+        0.09884
+      ],
+      "physical_mass": [
+        0.84462,
+        0.8497600000000001,
+        0.85284
+      ]
+    },
+    "unreduced": {
+      "P_ground": [
+        0.058050000000000004,
+        0.06099,
+        0.05876
+      ],
+      "physical_mass": [
+        0.36596,
+        0.36553,
+        0.36536
+      ]
+    }
+  }
+}
