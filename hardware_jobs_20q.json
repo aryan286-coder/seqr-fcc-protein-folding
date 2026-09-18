@@ -1,0 +1,17 @@
+{
+  "backend": "ibm_marrakesh",
+  "submitted_utc": "2026-08-22T13:33:20.070304+00:00",
+  "shots": 100000,
+  "register_qubits": 20,
+  "ansatz_reps": 3,
+  "cvar_alpha": 0.1,
+  "seed": 1,
+  "transpiled_depth": 97,
+  "transpiled_2q_gates": 57,
+  "simulator_ground_overlap": 0.12046687132555167,
+  "ground_states_count": 48,
+  "jobs": {
+    "DD + twirl": "da4qa743jnrc73aghld0",
+    "twirl only": "da4qa7u1vhnc73flagpg"
+  }
+}
